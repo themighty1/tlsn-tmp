@@ -68,21 +68,21 @@ tlsn-sdk-core = { path = "crates/sdk-core" }
 tlsn-wasm = { path = "crates/wasm" }
 tlsn = { path = "crates/tlsn" }
 
-mpz-circuits = { git = "https://github.com/privacy-ethereum/mpz", rev = "v0.1.0-alpha.6" }
-mpz-circuits-data = { git = "https://github.com/privacy-ethereum/mpz", rev = "v0.1.0-alpha.6" }
-mpz-memory-core = { git = "https://github.com/privacy-ethereum/mpz", rev = "v0.1.0-alpha.6" }
-mpz-common = { git = "https://github.com/privacy-ethereum/mpz", rev = "v0.1.0-alpha.6" }
-mpz-core = { git = "https://github.com/privacy-ethereum/mpz", rev = "v0.1.0-alpha.6" }
-mpz-vm-core = { git = "https://github.com/privacy-ethereum/mpz", rev = "v0.1.0-alpha.6" }
-mpz-garble = { git = "https://github.com/privacy-ethereum/mpz", rev = "v0.1.0-alpha.6" }
-mpz-garble-core = { git = "https://github.com/privacy-ethereum/mpz", rev = "v0.1.0-alpha.6" }
-mpz-ole = { git = "https://github.com/privacy-ethereum/mpz", rev = "v0.1.0-alpha.6" }
-mpz-ot = { git = "https://github.com/privacy-ethereum/mpz", rev = "v0.1.0-alpha.6" }
-mpz-share-conversion = { git = "https://github.com/privacy-ethereum/mpz", rev = "v0.1.0-alpha.6" }
-mpz-fields = { git = "https://github.com/privacy-ethereum/mpz", rev = "v0.1.0-alpha.6" }
-mpz-zk = { git = "https://github.com/privacy-ethereum/mpz", rev = "v0.1.0-alpha.6" }
-mpz-hash = { git = "https://github.com/privacy-ethereum/mpz", rev = "v0.1.0-alpha.6", default-features = false }
-mpz-ideal-vm = { git = "https://github.com/privacy-ethereum/mpz", rev = "v0.1.0-alpha.6" }
+mpz-circuits = { git = "https://github.com/themighty1/mpz-tmp", branch = "alpha6-otfix" }
+mpz-circuits-data = { git = "https://github.com/themighty1/mpz-tmp", branch = "alpha6-otfix" }
+mpz-memory-core = { git = "https://github.com/themighty1/mpz-tmp", branch = "alpha6-otfix" }
+mpz-common = { git = "https://github.com/themighty1/mpz-tmp", branch = "alpha6-otfix" }
+mpz-core = { git = "https://github.com/themighty1/mpz-tmp", branch = "alpha6-otfix" }
+mpz-vm-core = { git = "https://github.com/themighty1/mpz-tmp", branch = "alpha6-otfix" }
+mpz-garble = { git = "https://github.com/themighty1/mpz-tmp", branch = "alpha6-otfix" }
+mpz-garble-core = { git = "https://github.com/themighty1/mpz-tmp", branch = "alpha6-otfix" }
+mpz-ole = { git = "https://github.com/themighty1/mpz-tmp", branch = "alpha6-otfix" }
+mpz-ot = { git = "https://github.com/themighty1/mpz-tmp", branch = "alpha6-otfix" }
+mpz-share-conversion = { git = "https://github.com/themighty1/mpz-tmp", branch = "alpha6-otfix" }
+mpz-fields = { git = "https://github.com/themighty1/mpz-tmp", branch = "alpha6-otfix" }
+mpz-zk = { git = "https://github.com/themighty1/mpz-tmp", branch = "alpha6-otfix" }
+mpz-hash = { git = "https://github.com/themighty1/mpz-tmp", branch = "alpha6-otfix", default-features = false }
+mpz-ideal-vm = { git = "https://github.com/themighty1/mpz-tmp", branch = "alpha6-otfix" }
 
 futures-plex = { git = "https://github.com/tlsnotary/tlsn-utils", rev = "64722f7" }
 rangeset = { version = "0.4" }
