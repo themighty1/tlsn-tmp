@@ -206,6 +206,7 @@ mod tests {
         assert!(state.eof_delivered());
     }
 
+    #[cfg(debug_assertions)]
     #[test]
     #[should_panic(expected = "inbound close state skipped")]
     fn inbound_steps_cannot_be_skipped() {
@@ -213,6 +214,7 @@ mod tests {
         state.mark_eof_delivered();
     }
 
+    #[cfg(debug_assertions)]
     #[test]
     #[should_panic(expected = "outbound close state skipped")]
     fn outbound_steps_cannot_be_skipped() {
