@@ -200,6 +200,20 @@ jobs:
       - name: Run integration tests
         run: cargo test  --locked --profile tests-integration --workspace --exclude tlsn-tls-core --exclude tlsn-sdk-core --no-fail-fast -- --include-ignored
 
+      - name: Run heavy integration tests
+        env:
+          RUSTFLAGS: '--cfg tlsn_insecure'
+        run: >-
+          cargo test --locked --profile tests-integration -p tlsn
+          --test closure
+          --test failure_table
+          --test server_behaviour
+          --test deferred_decryption
+          --test prover_client_half_close
+          --test prover_close_after_output
+          --test proxy_large_upload
+          --no-fail-fast
+
   coverage:
     runs-on: ubuntu-latest
     env:
